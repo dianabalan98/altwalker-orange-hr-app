@@ -1,0 +1,17 @@
+[
+    {
+        "id": "v0",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_dashboard"
+    },
+    {
+        "id": "e0",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_go_to_manage_review_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_manage_reviews_page"
+    }
+]
