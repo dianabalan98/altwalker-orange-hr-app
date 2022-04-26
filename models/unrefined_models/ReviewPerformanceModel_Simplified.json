@@ -1,0 +1,311 @@
+{
+	"models": [
+		{
+			"name": "ReviewPerformanceModel",
+			"generator": "random(edge_coverage(100) && vertex_coverage(100))",
+			"startElementId": "v0",
+			"vertices": [
+				{
+					"id": "v0",
+					"name": "v_dashboard",
+					"sharedState": "dashboard"
+				},
+				{
+					"id": "v1",
+					"name": "v_manage_reviews_page",
+					"sharedState": "manage_reviews"
+				},
+				{
+					"id": "v2",
+					"name": "v_add_review_page"
+				},
+				{
+					"id": "v3",
+					"name": "v_form_step_2_enabled"
+				},
+				{
+					"id": "v4",
+					"name": "v_inactive_review"
+				},
+				{
+					"id": "v5",
+					"name": "v_activated_review"
+				},
+				{
+					"id": "v6",
+					"name": "v_edit_review_page"
+				},
+				{
+					"id": "v7",
+					"name": "v_evaluate_review_page"
+				},
+				{
+					"id": "v8",
+					"name": "v_in_progress_review"
+				},
+				{
+					"id": "v9",
+					"name": "v_approved_review"
+				},
+				{
+					"id": "v10",
+					"name": "v_complete_review_popup_opened"
+				}
+			],
+			"edges": [
+				{
+					"id": "e0",
+					"name": "e_go_to_manage_review_page",
+					"sourceVertexId": "v0",
+					"targetVertexId": "v1",
+					"actions": []
+				},
+				{
+					"id": "e1",
+					"name": "e_go_to_add_review_page",
+					"sourceVertexId": "v1",
+					"targetVertexId": "v2",
+					"guard": "isReviewAddedInactive == false"
+				},
+				{
+					"id": "e2",
+					"name": "e_go_back",
+					"sourceVertexId": "v2",
+					"targetVertexId": "v1",
+					"guard": "isReviewAddedInactive == false"
+				},
+				{
+					"id": "e3",
+					"name": "e__return_to_dashboard",
+					"sourceVertexId": "v1",
+					"targetVertexId": "v0"
+				},
+				{
+					"id": "e4",
+					"name": "e_fill_valid_employee_name",
+					"sourceVertexId": "v2",
+					"targetVertexId": "v3",
+					"guard": "isReviewAddedInactive == false"
+				},
+				{
+					"id": "e5",
+					"name": "e_fill_invalid_fields_step1",
+					"sourceVertexId": "v2",
+					"targetVertexId": "v2",
+					"guard": "isReviewAddedInactive == false",
+					"properties": {
+						"description": "nonexistent_employee_name, empty_employee_name"
+					}
+				},
+				{
+					"id": "e6",
+					"name": "e_go_back",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v1",
+					"guard": "isReviewAddedInactive == false"
+				},
+				{
+					"id": "e7",
+					"name": "e_fill_invalid_fields_step2",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v3",
+					"guard": "isReviewAddedInactive == false",
+					"properties": {
+						"description": "invalid_supervisor, empty_date_fields, end_date_less_than_start_date, due_date_less_than_start_date, duplicate_review_data, empty_supervisor"
+					}
+				},
+				{
+					"id": "e10",
+					"name": "e_save_with_valid_data",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v4",
+					"guard": "isReviewAddedInactive == false",
+					"actions": [
+						"isReviewAddedInactive = true;"
+					]
+				},
+				{
+					"id": "e11",
+					"name": "e_activate_with_valid_data",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v5",
+					"actions": [
+						"isReviewActivated = true;",
+						"isReviewAddedInactive = false;"
+					],
+					"guard": "isReviewAddedInactive == true"
+				},
+				{
+					"id": "e15",
+					"name": "e_go_to_edit_review_page",
+					"sourceVertexId": "v4",
+					"targetVertexId": "v6",
+					"guard": "isReviewAddedInactive == true"
+				},
+				{
+					"id": "e16",
+					"name": "e_go_back",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v4",
+					"guard": "isReviewAddedInactive == true"
+				},
+				{
+					"id": "e17",
+					"name": "e_activate_with_valid_data",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v5",
+					"guard": "isReviewAddedInactive == true",
+					"actions": [
+						"isReviewActivated = true;",
+						"isReviewAddedInactive = false;"
+					]
+				},
+				{
+					"id": "e18",
+					"name": "e_edit_invalid_fields",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v6",
+					"weight": 0,
+					"guard": "isReviewAddedInactive == true",
+					"properties": {
+						"description": "empty_date_fields, due_date_less_than_start_date, end_date_less_than_start_date, duplicate_review_data"
+					}
+				},
+				{
+					"id": "e22",
+					"name": "e_save_edited_review",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v4",
+					"guard": "isReviewAddedInactive == true"
+				},
+				{
+					"id": "e24",
+					"name": "e_evaluate_review",
+					"sourceVertexId": "v5",
+					"targetVertexId": "v7",
+					"guard": "isReviewActivated == true"
+				},
+				{
+					"id": "e25",
+					"name": "e_go_back",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v5",
+					"guard": "isReviewActivated == true"
+				},
+				{
+					"id": "e27",
+					"name": "e_save_with_invalid_rating",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v7",
+					"guard": "isReviewActivated == true"
+				},
+				{
+					"id": "e26",
+					"name": "e_save_with_valid_data",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v8",
+					"guard": "isReviewActivated == true",
+					"actions": [
+						"isReviewInProgress = true;",
+						"isReviewActivated = false;"
+					]
+				},
+				{
+					"id": "e31",
+					"name": "e_complete_with_invalid_fields",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v7",
+					"guard": "isReviewActivated == true",
+					"properties": {
+						"description": "empty_finalization_fields, invalid_final_rating, invalid_completed_date"
+					}
+				},
+				{
+					"id": "e34",
+					"name": "e_complete_with_invalid_fields",
+					"sourceVertexId": "v8",
+					"targetVertexId": "v8",
+					"guard": "isReviewInProgress == true",
+					"properties": {
+						"description": "invalid_completed_date, invalid_final_rating, empty_finalization_fields, invalid_rating"
+					}
+				},
+				{
+					"id": "e37",
+					"name": "e_complete_review_with_valid_data",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v10",
+					"guard": "isReviewActivated == true",
+					"actions": [
+						"isCompleteReviewPopupOpened = true;"
+					]
+				},
+				{
+					"id": "e38",
+					"name": "e_complete_review_with_valid_data",
+					"sourceVertexId": "v8",
+					"targetVertexId": "v10",
+					"guard": "isReviewInProgress == true",
+					"actions": [
+						"isCompleteReviewPopupOpened = true;"
+					]
+				},
+				{
+					"id": "e39",
+					"name": "e_confirm_review_completion",
+					"sourceVertexId": "v10",
+					"targetVertexId": "v9",
+					"actions": [
+						"isReviewApproved = true;",
+						"isReviewActivated = false;",
+						"isReviewInProgress = false;"
+					],
+					"guard": "isCompleteReviewPopupOpened == true"
+				},
+				{
+					"id": "e29",
+					"name": "e_cancel_complete_review_popup",
+					"sourceVertexId": "v10",
+					"targetVertexId": "v7",
+					"actions": [
+						"isCompleteReviewPopupOpened = false;"
+					],
+					"guard": "isReviewActivated == true"
+				},
+				{
+					"id": "e30",
+					"name": "e_cancel_complete_review_popup",
+					"sourceVertexId": "v10",
+					"targetVertexId": "v8",
+					"guard": "isReviewInProgress == true",
+					"actions": [
+						"isCompleteReviewPopupOpened = false;"
+					]
+				},
+				{
+					"id": "e40",
+					"name": "e_return_to_manage_reviews_page",
+					"sourceVertexId": "v9",
+					"targetVertexId": "v1",
+					"actions": [
+						"isReviewAddedInactive = false;",
+						"isReviewActivated = false;",
+						"isReviewInProgress = false;",
+						"isReviewApproved = false;",
+						"isCompleteReviewPopupOpened  = false;"
+					],
+					"guard": "isReviewApproved == true"
+				}
+			],
+			"actions": [
+				"isReviewAddedInactive = false;",
+				"isReviewActivated = false;",
+				"isReviewInProgress = false;",
+				"isReviewApproved = false;",
+				"isCompleteReviewPopupOpened  = false;"
+			]
+		}
+	],
+	"selectedModelIndex": 0,
+	"selectedElementId": "ff589290-bb08-11ec-a266-f5f1788841b5"
+}

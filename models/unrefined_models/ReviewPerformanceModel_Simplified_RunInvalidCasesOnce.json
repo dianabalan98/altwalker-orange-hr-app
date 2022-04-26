@@ -50,10 +50,6 @@
 				{
 					"id": "v10",
 					"name": "v_complete_review_popup_opened"
-				},
-				{
-					"id": "v11",
-					"name": "v11"
 				}
 			],
 			"edges": [
@@ -76,13 +72,20 @@
 					"name": "e_go_back",
 					"sourceVertexId": "v2",
 					"targetVertexId": "v1",
-					"guard": "isReviewAddedInactive == false"
+					"guard": "isReviewAddedInactive == false; isGoBackFromAddReviewPageTested == false;",
+					"actions": [
+						"isGoBackFromAddReviewPageTested = true;"
+					]
 				},
 				{
 					"id": "e3",
 					"name": "e__return_to_dashboard",
 					"sourceVertexId": "v1",
-					"targetVertexId": "v0"
+					"targetVertexId": "v0",
+					"guard": "isReturnToDashboardTested == false;",
+					"actions": [
+						"isReturnToDashboardTested = true;"
+					]
 				},
 				{
 					"id": "e4",
@@ -93,52 +96,39 @@
 				},
 				{
 					"id": "e5",
-					"name": "e_fill_nonexistent_employee_name",
+					"name": "e_fill_invalid_fields_step1",
 					"sourceVertexId": "v2",
 					"targetVertexId": "v2",
-					"guard": "isReviewAddedInactive == false"
+					"guard": "isReviewAddedInactive == false; isFillInvalidFieldsStep1Tested == false;",
+					"properties": {
+						"description": "nonexistent_employee_name, empty_employee_name"
+					},
+					"actions": [
+						"isFillInvalidFieldsStep1Tested = true;"
+					]
 				},
 				{
 					"id": "e6",
 					"name": "e_go_back",
 					"sourceVertexId": "v3",
 					"targetVertexId": "v1",
-					"guard": "isReviewAddedInactive == false"
+					"guard": "isReviewAddedInactive == false; isGoBackFromFormStep2Tested == false;",
+					"actions": [
+						"isGoBackFromFormStep2Tested = true;"
+					]
 				},
 				{
 					"id": "e7",
-					"name": "e_fill_invalid_supervisor",
+					"name": "e_fill_invalid_fields_step2",
 					"sourceVertexId": "v3",
 					"targetVertexId": "v3",
-					"guard": "isReviewAddedInactive == false"
-				},
-				{
-					"id": "e8",
-					"sourceVertexId": "v3",
-					"targetVertexId": "v3",
-					"name": "e_fill_empty_fields_date_fields",
-					"guard": "isReviewAddedInactive == false"
-				},
-				{
-					"id": "e9",
-					"name": "e_fill_empty_employee_name",
-					"sourceVertexId": "v2",
-					"targetVertexId": "v2",
-					"guard": "isReviewAddedInactive == false"
-				},
-				{
-					"id": "e13",
-					"name": "e_fill_end_date_less_than_start_date",
-					"sourceVertexId": "v3",
-					"targetVertexId": "v3",
-					"guard": "isReviewAddedInactive == false"
-				},
-				{
-					"id": "e14",
-					"name": "e_fill_due_date_less_than_start_date",
-					"sourceVertexId": "v3",
-					"targetVertexId": "v3",
-					"guard": "isReviewAddedInactive == false"
+					"guard": "isReviewAddedInactive == false; isFillInvalidFieldsStep2Tested == false;",
+					"properties": {
+						"description": "invalid_supervisor, empty_date_fields, end_date_less_than_start_date, due_date_less_than_start_date, duplicate_review_data, empty_supervisor"
+					},
+					"actions": [
+						"isFillInvalidFieldsStep2Tested = true;"
+					]
 				},
 				{
 					"id": "e10",
@@ -157,16 +147,10 @@
 					"targetVertexId": "v5",
 					"actions": [
 						"isReviewActivated = true;",
-						"isReviewAddedInactive = false;"
+						"isReviewAddedInactive = false;",
+						"isActivatedWithValidDataTested = true;"
 					],
-					"guard": "isReviewAddedInactive == true"
-				},
-				{
-					"id": "e12",
-					"name": "e_fill_duplicate_review_data",
-					"sourceVertexId": "v3",
-					"targetVertexId": "v3",
-					"guard": "isReviewAddedInactive == false"
+					"guard": "isReviewAddedInactive == true; isActivatedWithValidDataTested == false;"
 				},
 				{
 					"id": "e15",
@@ -180,7 +164,10 @@
 					"name": "e_go_back",
 					"sourceVertexId": "v6",
 					"targetVertexId": "v4",
-					"guard": "isReviewAddedInactive == true"
+					"guard": "isReviewAddedInactive == true; isGoBackFromEditReviewTested == false;",
+					"actions": [
+						"isGoBackFromEditReviewTested = true;"
+					]
 				},
 				{
 					"id": "e17",
@@ -195,46 +182,27 @@
 				},
 				{
 					"id": "e18",
-					"name": "e_fill_empty_date_fields",
+					"name": "e_edit_invalid_fields",
 					"sourceVertexId": "v6",
 					"targetVertexId": "v6",
 					"weight": 0,
-					"guard": "isReviewAddedInactive == true"
-				},
-				{
-					"id": "e19",
-					"name": "e_fill_due_date_less_than_start_date",
-					"sourceVertexId": "v6",
-					"targetVertexId": "v6",
-					"guard": "isReviewAddedInactive == true"
-				},
-				{
-					"id": "e20",
-					"name": "e_fill_end_date_less_than_start_date",
-					"sourceVertexId": "v6",
-					"targetVertexId": "v6",
-					"guard": "isReviewAddedInactive == true"
-				},
-				{
-					"id": "e21",
-					"name": "e_fill_empty_supervisor",
-					"sourceVertexId": "v3",
-					"targetVertexId": "v3",
-					"guard": "isReviewAddedInactive == false"
+					"guard": "isReviewAddedInactive == true; isEditInvalidFieldsTested == false;",
+					"properties": {
+						"description": "empty_date_fields, due_date_less_than_start_date, end_date_less_than_start_date, duplicate_review_data"
+					},
+					"actions": [
+						"isEditInvalidFieldsTested = true;"
+					]
 				},
 				{
 					"id": "e22",
 					"name": "e_save_edited_review",
 					"sourceVertexId": "v6",
 					"targetVertexId": "v4",
-					"guard": "isReviewAddedInactive == true"
-				},
-				{
-					"id": "e23",
-					"name": "e_fill_duplicate_review_data",
-					"sourceVertexId": "v6",
-					"targetVertexId": "v6",
-					"guard": "isReviewAddedInactive == true"
+					"guard": "isReviewAddedInactive == true; isSaveEditedReviewTested == false;",
+					"actions": [
+						"isSaveEditedReviewTested = true;"
+					]
 				},
 				{
 					"id": "e24",
@@ -248,14 +216,20 @@
 					"name": "e_go_back",
 					"sourceVertexId": "v7",
 					"targetVertexId": "v5",
-					"guard": "isReviewActivated == true"
+					"guard": "isReviewActivated == true; isGoBackFromEvaluateReviewTested == false;",
+					"actions": [
+						"isGoBackFromEvaluateReviewTested = true;"
+					]
 				},
 				{
 					"id": "e27",
 					"name": "e_save_with_invalid_rating",
 					"sourceVertexId": "v7",
 					"targetVertexId": "v7",
-					"guard": "isReviewActivated == true"
+					"guard": "isReviewActivated == true; isSaveWithInvalidRatingTested == false;",
+					"actions": [
+						"isSaveWithInvalidRatingTested = true;"
+					]
 				},
 				{
 					"id": "e26",
@@ -270,52 +244,29 @@
 				},
 				{
 					"id": "e31",
-					"name": "e_complete_with_empty_finalization_fields",
+					"name": "e_complete_with_invalid_fields",
 					"sourceVertexId": "v7",
 					"targetVertexId": "v7",
-					"guard": "isReviewActivated == true"
-				},
-				{
-					"id": "e32",
-					"name": "e_complete_with_invalid_final_rating",
-					"sourceVertexId": "v7",
-					"targetVertexId": "v7",
-					"guard": "isReviewActivated == true"
-				},
-				{
-					"id": "e33",
-					"name": "e_complete_with_invalid_completed_date",
-					"sourceVertexId": "v7",
-					"targetVertexId": "v7",
-					"guard": "isReviewActivated == true"
+					"guard": "isReviewActivated == true; isCompleteWithInvalidFieldsFromEvaluateReviewTested == false;",
+					"properties": {
+						"description": "empty_finalization_fields, invalid_final_rating, invalid_completed_date"
+					},
+					"actions": [
+						"isCompleteWithInvalidFieldsFromEvaluateReviewTested = true;"
+					]
 				},
 				{
 					"id": "e34",
-					"name": "e_complete_with_invalid_completed_date",
+					"name": "e_complete_with_invalid_fields",
 					"sourceVertexId": "v8",
 					"targetVertexId": "v8",
-					"guard": "isReviewInProgress == true"
-				},
-				{
-					"id": "e35",
-					"name": "e_complete_with_invalid_final_rating",
-					"sourceVertexId": "v8",
-					"targetVertexId": "v8",
-					"guard": "isReviewInProgress == true"
-				},
-				{
-					"id": "e36",
-					"name": "e_complete_with_empty_finalization_fields",
-					"sourceVertexId": "v8",
-					"targetVertexId": "v8",
-					"guard": "isReviewInProgress == true"
-				},
-				{
-					"id": "e28",
-					"name": "e_complete_with_invalid_rating",
-					"sourceVertexId": "v8",
-					"targetVertexId": "v8",
-					"guard": "isReviewInProgress == true"
+					"guard": "isReviewInProgress == true; isCompleteWithInvalidFieldsFromInProgressTested == false;",
+					"properties": {
+						"description": "invalid_completed_date, invalid_final_rating, empty_finalization_fields, invalid_rating"
+					},
+					"actions": [
+						"isCompleteWithInvalidFieldsFromInProgressTested = true;"
+					]
 				},
 				{
 					"id": "e37",
@@ -355,18 +306,20 @@
 					"sourceVertexId": "v10",
 					"targetVertexId": "v7",
 					"actions": [
-						"isCompleteReviewPopupOpened = false;"
+						"isCompleteReviewPopupOpened = false;",
+						"isCancelCompleteReviewPopupFromEvaluateReviewTested = true;"
 					],
-					"guard": "isReviewActivated == true"
+					"guard": "isReviewActivated == true; isCancelCompleteReviewPopupFromEvaluateReviewTested == false;"
 				},
 				{
 					"id": "e30",
 					"name": "e_cancel_complete_review_popup",
 					"sourceVertexId": "v10",
 					"targetVertexId": "v8",
-					"guard": "isReviewInProgress == true",
+					"guard": "isReviewInProgress == true; isCancelCompleteReviewPopupFromInProgressTested == false;",
 					"actions": [
-						"isCompleteReviewPopupOpened = false;"
+						"isCompleteReviewPopupOpened = false;",
+						"isCancelCompleteReviewPopupFromInProgressTested = true;"
 					]
 				},
 				{
@@ -389,7 +342,22 @@
 				"isReviewActivated = false;",
 				"isReviewInProgress = false;",
 				"isReviewApproved = false;",
-				"isCompleteReviewPopupOpened  = false;"
+				"isCompleteReviewPopupOpened  = false;",
+				"isFillInvalidFieldsStep1Tested = false;",
+				"isFillInvalidFieldsStep2Tested = false;",
+				"isEditInvalidFieldsTested = false;",
+				"isSaveWithInvalidRatingTested = false;",
+				"isCompleteWithInvalidFieldsFromEvaluateReviewTested = false;",
+				"isCompleteWithInvalidFieldsFromInProgressTested = false;",
+				"isReturnToDashboardTested = false;",
+				"isGoBackFromAddReviewPageTested = false;",
+				"isGoBackFromFormStep2Tested = false;",
+				"isGoBackFromEditReviewTested = false;",
+				"isGoBackFromEvaluateReviewTested = false;",
+				"isCancelCompleteReviewPopupFromInProgressTested = false;",
+				"isCancelCompleteReviewPopupFromEvaluateReviewTested = false;",
+				"isSaveEditedReviewTested = false;",
+				"isActivatedWithValidDataTested = false;"
 			]
 		}
 	],
