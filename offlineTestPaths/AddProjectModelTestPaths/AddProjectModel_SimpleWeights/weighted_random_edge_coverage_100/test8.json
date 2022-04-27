@@ -1,0 +1,2007 @@
+[
+    {
+        "id": "v0",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_dashboard_page"
+    },
+    {
+        "id": "e0",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e16",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_admin"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e16",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_admin"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e16",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_admin"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e16",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_admin"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e13",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e13",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e7",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_required_fields_only"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e15",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e16",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_admin"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e11",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e15",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e15",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e7",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_required_fields_only"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e15",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e15",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_open_add_customer_popup"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "id": "e6",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel_popup"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e15",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e13",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e11",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e16",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_admin"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e15",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e13",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e13",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e11",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e13",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e11",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e11",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_open_add_customer_popup"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_newly_added_customer"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_open_add_customer_popup"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "id": "e6",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel_popup"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e16",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_admin"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e11",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_open_add_customer_popup"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "id": "e6",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel_popup"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e11",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e13",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e7",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_required_fields_only"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e7",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_required_fields_only"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e11",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_open_add_customer_popup"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_newly_added_customer"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e13",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e7",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_required_fields_only"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e15",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e14",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_empty_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_open_add_customer_popup"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_newly_added_customer"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e11",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_project_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_1_admin"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e15",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_nonexistent_customer_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e7",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_required_fields_only"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e17",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_duplicate_admins"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e8",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_all_fields_valid_4_admins"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    },
+    {
+        "actions": [
+            "isProjectAdded = false;"
+        ],
+        "id": "e9",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_return_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_open_add_customer_popup"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "id": "e12",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_customer_with_duplicate_name"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    }
+]

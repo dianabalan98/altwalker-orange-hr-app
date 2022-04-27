@@ -1,0 +1,86 @@
+[
+    {
+        "id": "v0",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_dashboard_page"
+    },
+    {
+        "id": "e0",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_projects_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_projects_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_go_to_add_project_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_open_add_customer_popup"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "actions": [
+            "isAddCustomerWithDuplicateNameTested = true;"
+        ],
+        "id": "e12",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_customer_with_duplicate_name"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "actions": [
+            "isCancelAddCustomerPopupTested = true;"
+        ],
+        "id": "e6",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_cancel_popup"
+    },
+    {
+        "id": "v2",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_project_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_open_add_customer_popup"
+    },
+    {
+        "id": "v4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_add_customer_popup_opened"
+    },
+    {
+        "actions": [
+            "isProjectAdded = true;"
+        ],
+        "id": "e4",
+        "modelName": "AddProjectModelSimplified",
+        "name": "e_add_project_with_newly_added_customer"
+    },
+    {
+        "id": "v3",
+        "modelName": "AddProjectModelSimplified",
+        "name": "v_project_added"
+    }
+]
