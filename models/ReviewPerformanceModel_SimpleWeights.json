@@ -1,0 +1,433 @@
+{
+	"models": [
+		{
+			"name": "ReviewPerformanceModel",
+			"generator": "random(edge_coverage(100) && vertex_coverage(100))",
+			"startElementId": "v0",
+			"vertices": [
+				{
+					"id": "v0",
+					"name": "v_dashboard",
+					"sharedState": "dashboard"
+				},
+				{
+					"id": "v1",
+					"name": "v_manage_reviews_page",
+					"sharedState": "manage_reviews"
+				},
+				{
+					"id": "v2",
+					"name": "v_add_review_page"
+				},
+				{
+					"id": "v3",
+					"name": "v_form_step_2_enabled"
+				},
+				{
+					"id": "v4",
+					"name": "v_inactive_review"
+				},
+				{
+					"id": "v5",
+					"name": "v_activated_review"
+				},
+				{
+					"id": "v6",
+					"name": "v_edit_review_page"
+				},
+				{
+					"id": "v7",
+					"name": "v_evaluate_review_page"
+				},
+				{
+					"id": "v8",
+					"name": "v_in_progress_review"
+				},
+				{
+					"id": "v9",
+					"name": "v_approved_review"
+				},
+				{
+					"id": "v10",
+					"name": "v_complete_review_popup_opened"
+				}
+			],
+			"edges": [
+				{
+					"id": "e0",
+					"name": "e_go_to_manage_review_page",
+					"sourceVertexId": "v0",
+					"targetVertexId": "v1",
+					"actions": [],
+					"weight": 0
+				},
+				{
+					"id": "e1",
+					"name": "e_go_to_add_review_page",
+					"sourceVertexId": "v1",
+					"targetVertexId": "v2",
+					"guard": "isReviewAddedInactive == false;",
+					"weight": 0
+				},
+				{
+					"id": "e2",
+					"name": "e_go_back",
+					"sourceVertexId": "v2",
+					"targetVertexId": "v1",
+					"guard": "isReviewAddedInactive == false;",
+					"actions": [],
+					"weight": 0
+				},
+				{
+					"id": "e4",
+					"name": "e_fill_valid_employee_name",
+					"sourceVertexId": "v2",
+					"targetVertexId": "v3",
+					"guard": "isReviewAddedInactive == false;",
+					"weight": 0.5
+				},
+				{
+					"id": "e5",
+					"name": "e_fill_nonexistent_employee_name",
+					"sourceVertexId": "v2",
+					"targetVertexId": "v2",
+					"guard": "isReviewAddedInactive == false;",
+					"properties": {},
+					"weight": 0
+				},
+				{
+					"id": "e6",
+					"name": "e_go_back",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v1",
+					"guard": "isReviewAddedInactive == false;",
+					"actions": [],
+					"weight": 0.05
+				},
+				{
+					"id": "e7",
+					"name": "e_fill_invalid_supervisor",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v3",
+					"guard": "isReviewAddedInactive == false;",
+					"properties": {},
+					"weight": 0
+				},
+				{
+					"id": "e10",
+					"name": "e_save_with_valid_data",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v4",
+					"guard": "isReviewAddedInactive == false;",
+					"actions": [
+						"isReviewAddedInactive = true;"
+					],
+					"weight": 0.3
+				},
+				{
+					"id": "e11",
+					"name": "e_activate_with_valid_data",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v5",
+					"actions": [
+						"isReviewActivated = true;"
+					],
+					"guard": "isReviewAddedInactive == false;",
+					"weight": 0.2
+				},
+				{
+					"id": "e15",
+					"name": "e_go_to_edit_review_page",
+					"sourceVertexId": "v4",
+					"targetVertexId": "v6",
+					"guard": "isReviewAddedInactive == true;",
+					"weight": 0
+				},
+				{
+					"id": "e16",
+					"name": "e_go_back",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v4",
+					"guard": "isReviewAddedInactive == true;",
+					"actions": [],
+					"weight": 0
+				},
+				{
+					"id": "e17",
+					"name": "e_activate_with_valid_data",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v5",
+					"guard": "isReviewAddedInactive == true;",
+					"actions": [
+						"isReviewActivated = true;",
+						"isReviewAddedInactive = false;"
+					],
+					"weight": 0.3
+				},
+				{
+					"id": "e18",
+					"name": "e_fill_empty_date_fields",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v6",
+					"weight": 0,
+					"guard": "isReviewAddedInactive == true;",
+					"properties": {}
+				},
+				{
+					"id": "e22",
+					"name": "e_save_edited_review",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v4",
+					"guard": "isReviewAddedInactive == true;",
+					"weight": 0
+				},
+				{
+					"id": "e24",
+					"name": "e_evaluate_review",
+					"sourceVertexId": "v5",
+					"targetVertexId": "v7",
+					"guard": "isReviewActivated == true;",
+					"weight": 0
+				},
+				{
+					"id": "e25",
+					"name": "e_go_back",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v5",
+					"guard": "isReviewActivated == true;",
+					"actions": [],
+					"weight": 0
+				},
+				{
+					"id": "e27",
+					"name": "e_save_with_invalid_rating",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v7",
+					"guard": "isReviewActivated == true;",
+					"weight": 0
+				},
+				{
+					"id": "e26",
+					"name": "e_save_with_valid_data",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v8",
+					"guard": "isReviewActivated == true;",
+					"actions": [
+						"isReviewInProgress = true;",
+						"isReviewActivated = false;"
+					],
+					"weight": 0.3
+				},
+				{
+					"id": "e31",
+					"name": "e_complete_with_empty_finalization_fields",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v7",
+					"guard": "isReviewActivated == true;",
+					"properties": {},
+					"weight": 0
+				},
+				{
+					"id": "e34",
+					"name": "e_complete_with_invalid_completed_date",
+					"sourceVertexId": "v8",
+					"targetVertexId": "v8",
+					"guard": "isReviewInProgress == true;",
+					"properties": {},
+					"weight": 0
+				},
+				{
+					"id": "e37",
+					"name": "e_complete_review_with_valid_data",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v10",
+					"guard": "isReviewActivated == true;",
+					"actions": [
+						"isCompleteReviewPopupOpened = true;"
+					],
+					"weight": 0.2
+				},
+				{
+					"id": "e38",
+					"name": "e_complete_review_with_valid_data",
+					"sourceVertexId": "v8",
+					"targetVertexId": "v10",
+					"guard": "isReviewInProgress == true;",
+					"actions": [
+						"isCompleteReviewPopupOpened = true;"
+					],
+					"weight": 0.6
+				},
+				{
+					"id": "e39",
+					"name": "e_confirm_review_completion",
+					"sourceVertexId": "v10",
+					"targetVertexId": "v9",
+					"actions": [
+						"isReviewApproved = true;"
+					],
+					"guard": "isCompleteReviewPopupOpened == true;",
+					"weight": 0.6
+				},
+				{
+					"id": "e29",
+					"name": "e_cancel_complete_review_popup",
+					"sourceVertexId": "v10",
+					"targetVertexId": "v7",
+					"actions": [
+						"isCompleteReviewPopupOpened = false;"
+					],
+					"guard": "isReviewActivated == true;",
+					"weight": 0
+				},
+				{
+					"id": "e30",
+					"name": "e_cancel_complete_review_popup",
+					"sourceVertexId": "v10",
+					"targetVertexId": "v8",
+					"guard": "isReviewInProgress == true;",
+					"actions": [
+						"isCompleteReviewPopupOpened = false;"
+					],
+					"weight": 0
+				},
+				{
+					"id": "e40",
+					"name": "e_return_to_manage_reviews_page",
+					"sourceVertexId": "v9",
+					"targetVertexId": "v1",
+					"actions": [
+						"isReviewAddedInactive = false;",
+						"isReviewActivated = false;",
+						"isReviewInProgress = false;",
+						"isReviewApproved = false;",
+						"isCompleteReviewPopupOpened  = false;"
+					],
+					"guard": "isReviewApproved == true;",
+					"weight": 0
+				},
+				{
+					"id": "e3",
+					"name": "e_fill_empty_employee_name",
+					"sourceVertexId": "v2",
+					"targetVertexId": "v2",
+					"guard": "isReviewAddedInactive == false;",
+					"weight": 0
+				},
+				{
+					"id": "e8",
+					"name": "e_fill_empty_date_fields",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v3",
+					"guard": "isReviewAddedInactive == false;",
+					"weight": 0
+				},
+				{
+					"id": "e9",
+					"name": "e_fill_end_date_less_than_start_date",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v3",
+					"guard": "isReviewAddedInactive == false;",
+					"weight": 0
+				},
+				{
+					"id": "e12",
+					"name": "e_fill_due_date_less_than_start_date",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v3",
+					"guard": "isReviewAddedInactive == false;",
+					"weight": 0
+				},
+				{
+					"id": "e13",
+					"name": "e_fill_duplicate_review_data",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v3",
+					"guard": "isReviewAddedInactive == false;",
+					"weight": 0
+				},
+				{
+					"id": "e14",
+					"name": "e_fill_empty_supervisor",
+					"sourceVertexId": "v3",
+					"targetVertexId": "v3",
+					"guard": "isReviewAddedInactive == false;",
+					"weight": 0
+				},
+				{
+					"id": "e19",
+					"name": "e_fill_due_date_less_than_start_date",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v6",
+					"guard": "isReviewAddedInactive == true;",
+					"weight": 0
+				},
+				{
+					"id": "e20",
+					"name": "e_fill_end_date_less_than_start_date",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v6",
+					"guard": "isReviewAddedInactive == true;",
+					"weight": 0
+				},
+				{
+					"id": "e21",
+					"name": "e_fill_duplicate_review_data",
+					"sourceVertexId": "v6",
+					"targetVertexId": "v6",
+					"guard": "isReviewAddedInactive == true;",
+					"weight": 0
+				},
+				{
+					"id": "e28",
+					"name": "e_complete_with_invalid_final_rating",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v7",
+					"guard": "isReviewActivated == true;",
+					"weight": 0
+				},
+				{
+					"id": "e32",
+					"name": "e_complete_with_invalid_completed_date",
+					"sourceVertexId": "v7",
+					"targetVertexId": "v7",
+					"guard": "isReviewActivated == true;",
+					"weight": 0
+				},
+				{
+					"id": "e33",
+					"name": "e_complete_with_invalid_final_rating",
+					"sourceVertexId": "v8",
+					"targetVertexId": "v8",
+					"guard": "isReviewInProgress == true;",
+					"weight": 0
+				},
+				{
+					"id": "e35",
+					"name": "e_complete_with_empty_finalization_fields",
+					"sourceVertexId": "v8",
+					"targetVertexId": "v8",
+					"guard": "isReviewInProgress == true;",
+					"weight": 0
+				},
+				{
+					"id": "e36",
+					"name": "e_complete_with_invalid_rating",
+					"sourceVertexId": "v8",
+					"targetVertexId": "v8",
+					"guard": "isReviewInProgress == true;",
+					"weight": 0
+				}
+			],
+			"actions": [
+				"isReviewAddedInactive = false;",
+				"isReviewActivated = false;",
+				"isReviewInProgress = false;",
+				"isReviewApproved = false;",
+				"isCompleteReviewPopupOpened  = false;"
+			]
+		}
+	],
+	"selectedModelIndex": 0,
+	"selectedElementId": "ff589290-bb08-11ec-a266-f5f1788841b5"
+}
