@@ -47,6 +47,7 @@ def append_to_csv_file(it_id, time, steps):
 		data = [it_id, time, steps]
 		writer.writerow(data)
 
+# time in milliseconds from seconds
 def get_current_time():
 	return time.time() * 1000
 
