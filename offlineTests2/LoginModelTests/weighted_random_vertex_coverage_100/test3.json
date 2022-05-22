@@ -1,0 +1,90 @@
+[
+    {
+        "id": "v0",
+        "modelName": "LoginModel",
+        "name": "fake_vertex"
+    },
+    {
+        "id": "e0",
+        "modelName": "LoginModel",
+        "name": "e_load_login_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "LoginModel",
+        "name": "v_login_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "LoginModel",
+        "name": "e_login_empty_username"
+    },
+    {
+        "id": "v1",
+        "modelName": "LoginModel",
+        "name": "v_login_page"
+    },
+    {
+        "id": "e6",
+        "modelName": "LoginModel",
+        "name": "e_login_empty_password"
+    },
+    {
+        "id": "v1",
+        "modelName": "LoginModel",
+        "name": "v_login_page"
+    },
+    {
+        "id": "e5",
+        "modelName": "LoginModel",
+        "name": "e_login_empty_username"
+    },
+    {
+        "id": "v1",
+        "modelName": "LoginModel",
+        "name": "v_login_page"
+    },
+    {
+        "id": "e2",
+        "modelName": "LoginModel",
+        "name": "e_login_disabled_user"
+    },
+    {
+        "id": "v1",
+        "modelName": "LoginModel",
+        "name": "v_login_page"
+    },
+    {
+        "id": "e2",
+        "modelName": "LoginModel",
+        "name": "e_login_disabled_user"
+    },
+    {
+        "id": "v1",
+        "modelName": "LoginModel",
+        "name": "v_login_page"
+    },
+    {
+        "id": "e2",
+        "modelName": "LoginModel",
+        "name": "e_login_disabled_user"
+    },
+    {
+        "id": "v1",
+        "modelName": "LoginModel",
+        "name": "v_login_page"
+    },
+    {
+        "actions": [
+            "isUserLoggedIn = true;"
+        ],
+        "id": "e1",
+        "modelName": "LoginModel",
+        "name": "e_login_enabled_standard_user"
+    },
+    {
+        "id": "v2",
+        "modelName": "LoginModel",
+        "name": "v_dashboard_page"
+    }
+]

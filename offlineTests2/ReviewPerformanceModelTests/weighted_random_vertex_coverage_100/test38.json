@@ -1,0 +1,446 @@
+[
+    {
+        "id": "v0",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_dashboard"
+    },
+    {
+        "id": "e0",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_go_to_manage_review_page"
+    },
+    {
+        "id": "v1",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_manage_reviews_page"
+    },
+    {
+        "id": "e1",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_go_to_add_review_page"
+    },
+    {
+        "id": "v2",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_add_review_page"
+    },
+    {
+        "id": "e3",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_fill_empty_employee_name"
+    },
+    {
+        "id": "v2",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_add_review_page"
+    },
+    {
+        "id": "e4",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_fill_valid_employee_name"
+    },
+    {
+        "id": "v3",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_form_step_2_enabled"
+    },
+    {
+        "id": "e14",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_fill_empty_supervisor"
+    },
+    {
+        "id": "v3",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_form_step_2_enabled"
+    },
+    {
+        "id": "e12",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_fill_due_date_less_than_start_date"
+    },
+    {
+        "id": "v3",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_form_step_2_enabled"
+    },
+    {
+        "id": "e12",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_fill_due_date_less_than_start_date"
+    },
+    {
+        "id": "v3",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_form_step_2_enabled"
+    },
+    {
+        "id": "e7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_fill_invalid_supervisor"
+    },
+    {
+        "id": "v3",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_form_step_2_enabled"
+    },
+    {
+        "actions": [
+            "isReviewAddedInactive = true;"
+        ],
+        "id": "e10",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_save_with_valid_data"
+    },
+    {
+        "id": "v4",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_inactive_review"
+    },
+    {
+        "id": "e15",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_go_to_edit_review_page"
+    },
+    {
+        "id": "v6",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_edit_review_page"
+    },
+    {
+        "id": "e22",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_save_edited_review"
+    },
+    {
+        "id": "v4",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_inactive_review"
+    },
+    {
+        "id": "e15",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_go_to_edit_review_page"
+    },
+    {
+        "id": "v6",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_edit_review_page"
+    },
+    {
+        "id": "e20",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_fill_end_date_less_than_start_date"
+    },
+    {
+        "id": "v6",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_edit_review_page"
+    },
+    {
+        "id": "e21",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_fill_duplicate_review_data"
+    },
+    {
+        "id": "v6",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_edit_review_page"
+    },
+    {
+        "id": "e19",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_fill_due_date_less_than_start_date"
+    },
+    {
+        "id": "v6",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_edit_review_page"
+    },
+    {
+        "id": "e22",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_save_edited_review"
+    },
+    {
+        "id": "v4",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_inactive_review"
+    },
+    {
+        "id": "e15",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_go_to_edit_review_page"
+    },
+    {
+        "id": "v6",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_edit_review_page"
+    },
+    {
+        "actions": [
+            "isReviewActivated = true;",
+            "isReviewAddedInactive = false;"
+        ],
+        "id": "e17",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_activate_with_valid_data"
+    },
+    {
+        "id": "v5",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_activated_review"
+    },
+    {
+        "id": "e24",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_evaluate_review"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e28",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_with_invalid_final_rating"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e25",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_go_back"
+    },
+    {
+        "id": "v5",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_activated_review"
+    },
+    {
+        "id": "e24",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_evaluate_review"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e25",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_go_back"
+    },
+    {
+        "id": "v5",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_activated_review"
+    },
+    {
+        "id": "e24",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_evaluate_review"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e27",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_save_with_invalid_rating"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e32",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_with_invalid_completed_date"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e32",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_with_invalid_completed_date"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e28",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_with_invalid_final_rating"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e27",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_save_with_invalid_rating"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "actions": [
+            "isCompleteReviewPopupOpened = true;"
+        ],
+        "id": "e37",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_review_with_valid_data"
+    },
+    {
+        "id": "v10",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_complete_review_popup_opened"
+    },
+    {
+        "actions": [
+            "isCompleteReviewPopupOpened = false;"
+        ],
+        "id": "e29",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_cancel_complete_review_popup"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e32",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_with_invalid_completed_date"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "id": "e25",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_go_back"
+    },
+    {
+        "id": "v5",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_activated_review"
+    },
+    {
+        "id": "e24",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_evaluate_review"
+    },
+    {
+        "id": "v7",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_evaluate_review_page"
+    },
+    {
+        "actions": [
+            "isReviewInProgress = true;",
+            "isReviewActivated = false;"
+        ],
+        "id": "e26",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_save_with_valid_data"
+    },
+    {
+        "id": "v8",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_in_progress_review"
+    },
+    {
+        "actions": [
+            "isCompleteReviewPopupOpened = true;"
+        ],
+        "id": "e38",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_review_with_valid_data"
+    },
+    {
+        "id": "v10",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_complete_review_popup_opened"
+    },
+    {
+        "actions": [
+            "isCompleteReviewPopupOpened = false;"
+        ],
+        "id": "e30",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_cancel_complete_review_popup"
+    },
+    {
+        "id": "v8",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_in_progress_review"
+    },
+    {
+        "id": "e35",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_with_empty_finalization_fields"
+    },
+    {
+        "id": "v8",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_in_progress_review"
+    },
+    {
+        "id": "e35",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_with_empty_finalization_fields"
+    },
+    {
+        "id": "v8",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_in_progress_review"
+    },
+    {
+        "actions": [
+            "isCompleteReviewPopupOpened = true;"
+        ],
+        "id": "e38",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_complete_review_with_valid_data"
+    },
+    {
+        "id": "v10",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_complete_review_popup_opened"
+    },
+    {
+        "actions": [
+            "isReviewApproved = true;"
+        ],
+        "id": "e39",
+        "modelName": "ReviewPerformanceModel",
+        "name": "e_confirm_review_completion"
+    },
+    {
+        "id": "v9",
+        "modelName": "ReviewPerformanceModel",
+        "name": "v_approved_review"
+    }
+]
